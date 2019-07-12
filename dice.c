@@ -19,6 +19,9 @@ int main() {
   printf("Die 1: %d\nDie 2: %d\n" ,d1 ,d2);
   printf("Total value: %d\n" ,sum);
 
+  if(sum>=7) printf("%s won!\n" ,n);
+  else ("%s lost.\n" ,n);
+
 
   return 0;
 }
